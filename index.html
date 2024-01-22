@@ -18,6 +18,7 @@
         extend: {
           colors: {
             clifford: '#da373d',
+          "primary-color": '#FF4240;',
           }
         }
       }
@@ -38,12 +39,107 @@
 </head>
 <body   class="manrope" >
    
-    <header>
+    <header  class="w-11/12  md:w-10/12 mx-auto relative" >
 
 
+
+
+        <div class="navbar bg-base-100 mt-2">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+       
+                  <li><a  class="text-primary-color" >Home</a></li>
+                  <li><a>About</a></li>
+                 
+                  <li><a>Pages</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl md:text-2xl ">Hockey  <span  class="text-primary-color text-4xl">’</span>s</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-base font-normal text-[#424247]">
+                <li><a class="text-primary-color" >  Home</a></li>
+                <li><a>About</a></li>
+               
+                <li><a>Pages</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end space-x-7">
+
+                <img class="hidden md:flex" src="./img/searach.svg" alt="">
+              <a class="btn bg-primary-color text-white">Get Ticket</a>
+            </div>
+          </div>
+
+
+
+<!-- banner section -->
+
+
+
+
+<div class="carousel md:h-[80vh] relative  mt-4 w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <img  src="./img/1.png" class="w-full object-cover rounded-xl" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide4" class="btn btn-circle">❮</a> 
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+
+
+    <div id="slide2" class="carousel-item relative w-full">
+      <img src="./img/banner2.jpg" class="w-full object-cover rounded-xl" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide1" class="btn btn-circle">❮</a> 
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+
+    <div id="slide3" class="carousel-item relative w-full">
+      <img src="./img/banner4.jpg" class="w-full object-cover rounded-xl" />
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a href="#slide2" class="btn btn-circle">❮</a> 
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div> 
+   
+
+ 
+  </div>
+
+
+
+  <div  class="bg-[#131318] lg:w-1/2 px-4  md:px-8 py-6 rounded-2xl lg:absolute lg:bottom-6 lg:right-6" >
+
+
+
+    <h1  class=  "text-base md:text-2xl font-extrabold text-white " >Meet all the heroes from the field</h1>
+
+    <p class="text-sm md:text-base text-[#ffffff99]"   >Hockey's relentless spirit, teamwork, and triumphs ignite passion, fueling dedication, resilience, and endless inspiration on the icy journey</p>
+</div>
     </header>
 
-<main>
+<main  class="w-11/12  md:w-10/12 mx-auto " >
+
+<!-- redial section -->
+
+<section  class="text-center mt-32">
+
+<h1  class="text-4xl font-extrabold" >Professional Hockeys Club</h1>
+<p> <p class="text-sm md:text-base text-[#ffffff99]"   >Hockey's relentless spirit, teamwork, and triumphs ignite passion, fueling dedication, resilience, and endless inspiration on the icy journey</p</p>
+<p></p>
+
+
+</section>
 
 
 
@@ -52,7 +148,7 @@
 <footer>
 
 
-    
+
 </footer>
 
 </body>
